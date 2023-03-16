@@ -49,3 +49,61 @@ img{
 hr{
     width: 920px; /*Largura da linha do hr*/
 }
+
+.div-links-encontre-me{
+    line-height: 0px; /*Altura da linha*/
+    color: rgb(255, 255, 255); /*Cor da letra*/
+    margin-bottom: 10px; /*margem inferior*/
+}
+  
+.email{
+    font-weight:bold; /*espessura da fonte*/
+}
+    
+a{
+    text-decoration: none; /*Tira a linha do link*/
+    color: white; /*Cor da letra*/
+}
+  
+.div-link-redes{
+    margin-top: 48px; /*Margem de cima*/
+    display: flex; /*Divisão do linkedin com github*/
+}
+    
+.linkedin, .github{
+    margin-top: 20px; /*Margem de cima*/
+    text-transform: uppercase; /*Transfora letra em maiúscula*/
+    font-size: 15px; /*Tamanho da fonte*/
+    letter-spacing: 1.63px; /*Coloca espaço entre cada letra*/
+    margin-right: 16px; /*Margem da direita pra dar espaçamento entre os dois links*/
+}
+    
+.linkedin:hover, .github:hover{
+    font-weight: bold; /*Vai transformar a espessura da fonte em bold*/
+    font-size: 17px; /*Vai aumentar o tamanho da fonte*/
+    transition: all 0s linear; /*Linear - Especifica um efeito de transição com a mesma velocidade do início ao fim*/
+}
+  
+.div-biografia{
+    text-align: justify; /*Deixa o texto certinho*/
+    justify-content: center; /*Centralizar div*/
+    margin: 0 auto; /*o que centraliza horizontalmente a div em relação à página.*/
+    height: 50%;/*Altura da div*/
+    max-width: 890px;/*Largura máxima!!*/
+}
+  
+.h3-biografia{
+    font-size: 16px; /*Tamnho da fonte*/
+    line-height: 1.63; /*Altura da linha*/
+    letter-spacing: 1.63px; /*Espaço entre as letras*/
+    font-weight: 700; /*Fonte - bold*/
+    text-transform: uppercase; /*Transforma o texto em Maiúsculo*/
+    color: rgba(255, 255, 255, 0.7); /*Cor do texto*/
+}
+  
+.p-biografia{
+    font-weight: 400; /*Fonte - normal*/
+    font-size: 17px; /*Tamanho da fonte*/
+    line-height: 1.71; /*Altura da linha*/
+    color: rgba(255, 255, 255, 0.7); /*Cor do texto*/
+}
