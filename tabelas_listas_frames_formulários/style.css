@@ -1,0 +1,37 @@
+body{
+    font-family: Inter, sans-serif; /*Fonte*/
+    background-color: #fff; /*Cor de fundo*/
+    font-size: 20px; /*Tamanho da fonte*/
+}
+
+h1, th, footer, .h3-b{
+    text-align: center; /*Alinhar texto ao centro*/
+}
+
+summary{
+    cursor: pointer; /*Indica que tem algo para clicar*/
+}
+
+table{
+    border-collapse: collapse;/*As bordas são recolhidas em uma única borda quando possível*/
+    margin: 20px 0; /*Margem total*/
+    width: 100%; /*Tamanho total da largura da página*/
+    font-size: 16px; /*Tamanho da fonte*/
+}
+
+th, td {
+    padding: 8px; /*Padding total*/
+    text-align: left; /*Alinhar texto à esquerdar*/
+    border: 1px solid black; /*Borda, linha contínua ao redor do elemento*/
+}
+
+th {
+    text-align: center; /*Texto alinhado ao centro*/
+    background-color: #f2f2f2; /*Cor de fundo*/
+    font-weight: bold; /*Fonte - bold*/
+}
+
+
+.h3-b{
+    color: rgb(95, 95, 95); /*Cor do texto*/
+}
