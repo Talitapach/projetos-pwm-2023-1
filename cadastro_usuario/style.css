@@ -65,3 +65,9 @@ div{
     margin-right: 20px; /* ajuste o espaçamento entre as labels aqui */
     color: rgb(82, 98, 143); /*Cor da letra*/
 }
+
+footer{
+    padding-top: 10px;
+    text-align: center; /*Alinhar o texto ao centro*/
+    font-size: 14px; /*Tamanho da fonte*/
+}
