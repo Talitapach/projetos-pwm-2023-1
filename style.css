@@ -1,13 +1,46 @@
+body{
+    font-family: Inter, sans-serif; /*Fonte*/
+    letter-spacing: 1.63px;  /*Espaço entre as letras*/
+}
+
 header{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+    display: flex; /*Coloca os elementos um ao lado do outro*/
+    padding-left: 450px; /*Padding da esquerda*/
+    padding-right: 500px; /*Padding da direita*/
+    padding-top: 20px; /*Padding de cima*/
+    width: 1000px; /*Largura*/
+    height: 100px; /*Altura*/
 }
-
-p{
-    font-family: Arial, Helvetica, sans-serif;
+main{
+    padding-top: 40px; /*Padding de cima*/
 }
-
 summary{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    cursor: pointer; /*Indica que tem algo para clicar*/
+    font-size: 30px; /*Tamanho da fonte*/
+}
+
+a{
+    margin: 10px; /*Margem total*/
+    text-transform: uppercase; /*Transforma texto em maiúsculo*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin-right: 1rem;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+a:hover{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    transition: all 0.4s ease 0s;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+	bottom: 0; 
+    position:fixed;
+    width: 100%;
 }
