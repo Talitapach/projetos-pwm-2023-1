@@ -9,9 +9,78 @@
     <title>Cadastro de Usuário</title>
 </head>
 <body>
-    
+
     <!--TÍTULO-->
     <header><h1>Cadastro de Usuário</h1></header>
+
+    <!--FORM-->
+    <main>
+        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+          <fieldset>
+            <legend>Informações Pessoais</legend>
+    
+            <label>Nome:</label>
+            <input type="text" name="nome" required><br>
+      
+            <label>E-mail:</label>
+            <input type="email" name="email" required><br>
+      
+            <label>Senha:</label>
+            <input type="password" name="senha" required><br>
+      
+            <label>Data de Nascimento:</label>
+            <input type="date" name="nascimento" required><br>
+      
+            <label>Sexo:</label>
+            <div>
+              <label>Masculino</label>
+              <input type="radio" name="sexo" required>
+            </div>
+            <div>
+              <label>Feminino</label>
+              <input type="radio" name="sexo">
+            </div>
+           
+            <br>
+            <br>
+      
+            <label>Estado:</label>
+            <select required>
+              <option>Selecione um estado</option>
+              <option>Acre</option>
+              <option>Alagoas</option>
+              <option>Amapá</option>
+              <option>Amazonas</option>
+              <option>Bahia</option>
+              <option>Ceará</option>
+              <option>Distrito Federal</option>
+              <option>Espírito Santo</option>
+              <option>Goiás</option>
+              <option>Maranhão</option>
+              <option>Mato Grosso</option>
+              <option>Mato Grosso do Sul</option>
+              <option>Minas Gerais</option>
+              <option>Pará</option>
+              <option>Paraíba</option>
+              <option>Paraná</option>
+              <option>Pernambuco</option>
+              <option>Piauí</option>
+              <option>Rio de Janeiro</option>
+              <option>Rio Grande do Norte</option>
+              <option>Rio Grande do Sul</option>
+              <option>Rondônia</option>
+              <option>Roraima</option>
+              <option>Santa Catarina</option>
+              <option>São Paulo</option>
+              <option>Sergipe</option>
+              <option>Tocantins</option>
+            </select>
+            <br>
+      
+            <input type="submit">
+          </fieldset>
+        </form>
+      </main>
 
 </body>
 </html>
