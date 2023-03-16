@@ -1,0 +1,9 @@
+body{
+    color: rgb(255, 255, 255); /*Cor da letra*/
+    font-family: Inter, sans-serif; /*Fonte da letra*/
+    background-color: rgb(22, 28, 45); /*Cor de fundo da página*/
+}
+
+header{
+    margin-bottom: 80px; /*Margem de baixo*/
+}
