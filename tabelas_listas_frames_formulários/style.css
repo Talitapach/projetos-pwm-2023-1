@@ -35,3 +35,9 @@ th {
 .h3-b{
     color: rgb(95, 95, 95); /*Cor do texto*/
 }
+
+a{
+    text-decoration: none; /*Tira a linha do link*/
+    color: black; /*Cor da letra*/
+    font-weight: bold; /*Fonte - bold*/
+}
