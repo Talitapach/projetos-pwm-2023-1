@@ -41,3 +41,10 @@ a{
     color: black; /*Cor da letra*/
     font-weight: bold; /*Fonte - bold*/
 }
+
+footer{
+    font-size: 12px; /*Tamanho da fonte*/
+	bottom: 0; /*Em baixo na tela*/
+    position:fixed; /*Fixado na tela*/
+    width: 100%; /*Largura máxima*/
+}
