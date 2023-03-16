@@ -107,3 +107,12 @@ a{
     line-height: 1.71; /*Altura da linha*/
     color: rgba(255, 255, 255, 0.7); /*Cor do texto*/
 }
+
+.div-video-audio{
+    text-align: center;/*Alinhar o texto ao centro*/
+}
+  
+footer{
+    text-align: center; /*Alinhar o texto ao centro*/
+    font-size: 16px; /*Tamanho da fonte*/
+}
