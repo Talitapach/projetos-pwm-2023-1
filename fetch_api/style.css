@@ -1,0 +1,15 @@
+body{
+    font-family: Inter, sans-serif; 
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    margin:50px;
+}
+
+#movie-info{
+    margin-top: 30px;
+}
